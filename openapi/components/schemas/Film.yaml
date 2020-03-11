@@ -1,7 +1,0 @@
-type: object
-required:
-  - link
-properties:
-  link:
-    description: Film stream link.
-    type: string
