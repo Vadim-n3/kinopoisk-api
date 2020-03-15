@@ -1,0 +1,16 @@
+parameters:
+  - $ref: ../components/parameters/registration.yaml
+post:
+  tags:
+    - Auth
+  summary: Registration of user
+  operationId: Registration
+  description: |
+    Registration of user
+  responses:
+    '200':
+      description: Registration of user were made successfully
+    '401':
+      $ref: ../components/responses/AccessForbidden.yaml
+    '404':
+      $ref: ../components/responses/NotFound.yaml

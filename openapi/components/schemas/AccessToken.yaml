@@ -1,0 +1,21 @@
+type: object
+required:
+  - access_token
+properties:
+  access_token:
+    description: Access token for granting access for certain requested operations execution.
+    type: string
+  token_type:
+    description: Type of token - usually it is Bearer.
+    type: string
+  expires_in:
+    description: Time during which token is valid.
+    type: integer
+  refresh_token:
+    description: Token for refreshing time during which token is valid (expires_in propertie).
+    type: string
+example:
+  access_token: a4z4XoChBtHFGyMVrebwgnVcUnDEFc
+  token_type: Bearer
+  expires_in: 36000
+  refresh_token: ea9sPsCPyRScREoDVl95MkQPiCF1T5
