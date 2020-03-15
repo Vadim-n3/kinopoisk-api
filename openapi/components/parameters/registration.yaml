@@ -1,0 +1,16 @@
+in: header
+name: filmID
+description: The resource identifier string
+required: true
+schema:
+  type: object
+  properties:
+    username:
+      description: Personal name of the user.
+      type: string
+    password:
+      description: User personal password for authorization.
+      type: string
+    email:
+      description: User email for communication, notification, secondary identification way, etc.
+      type: string

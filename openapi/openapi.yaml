@@ -28,6 +28,10 @@ paths:
     $ref: './paths/genres.yaml'
   '/films':
     $ref: './paths/films.yaml'
+  '/registration':
+    $ref: './paths/registration.yaml'
+  '/authorization':
+    $ref: './paths/authorization.yaml'
   #'/films/{filmID}/reviews':
   #  	$ref: './paths/filmReviews@{filmID}.yaml'
 	#'/filmReviews/{filmID}/details/{reviewID}':

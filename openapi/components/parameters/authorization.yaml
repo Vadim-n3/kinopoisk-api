@@ -1,0 +1,13 @@
+in: header
+name: authorization
+description: Attributes needed for authorization
+required: true
+schema:
+  type: object
+  properties:
+    username:
+      description: Personal name of the user.
+      type: string
+    password:
+      description: User personal password for authorization.
+      type: string
