@@ -2,7 +2,7 @@ get:
   tags:
     - Genre
   summary: Retrieve Genres
-  operationId: GetGenre
+  operationId: GetGenres
   description: |
     Retrieve Genres
   responses:

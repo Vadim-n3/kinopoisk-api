@@ -22,7 +22,7 @@ put:
   tags:
     - Film
   summary: Create Film frames
-  operationId: PutFilmGallety
+  operationId: PutFilmGallery
   description: |
     Create or re-create a Film frames
   requestBody:
