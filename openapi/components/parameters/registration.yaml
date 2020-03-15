@@ -1,6 +1,6 @@
 in: header
-name: filmID
-description: The resource identifier string
+name: registration
+description: Registration data
 required: true
 schema:
   type: object

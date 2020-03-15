@@ -57,13 +57,6 @@ put:
           $ref: ../components/schemas/Film.yaml
     description: Film resource
     required: true
-  responses:
-    '200':
-      description: Film stream link was updated
-      content:
-        application/json:
-          schema:
-            $ref: ../components/schemas/Film.yaml
     '201':
       description: Film stream link was created
       content:
